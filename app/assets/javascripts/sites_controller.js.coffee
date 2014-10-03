@@ -46,7 +46,7 @@ class TweestasCtrl
     if user
       @http.post("/users/#{user.id}/tags", {tag: newTag})
     #   @http.get("/users/#{user.id}.json")
-    # .success (data) => 
+    # .success (data) =>
     #   alert "hi after getting"
     #   console.log(data)
 

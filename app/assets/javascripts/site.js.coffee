@@ -15,7 +15,7 @@
 # ]
 
 # # setup controller
-# TweestaApp.controller "TweestaCtrl", ["$scope", "$http", ($scope, $http) -> 
+# TweestaApp.controller "TweestaCtrl", ["$scope", "$http", ($scope, $http) ->
 
 #   $scope = []
 #   $scope.name = "test"
